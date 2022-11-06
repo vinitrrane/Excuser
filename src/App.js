@@ -31,6 +31,9 @@ function App() {
           <button onClick={() => funClick('children')}>Children</button>
           <button onClick={() => funClick('college')}>College</button>
           <button onClick={() => funClick('funny')}>Funny</button>
+          <button onClick={() => funClick('unbelievable')}>Unbelievable</button>
+          <button onClick={() => funClick('developers')}>Developers</button>
+          <button onClick={() => funClick('gaming')}>Gaming</button>
         </div></div>
 
 
