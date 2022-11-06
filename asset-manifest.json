@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Excuser/static/css/main.2ca3b56c.css",
+    "main.js": "/Excuser/static/js/main.c694daff.js",
+    "static/media/excused.png": "/Excuser/static/media/excused.f46bd9e9a596406ff886.png",
+    "index.html": "/Excuser/index.html",
+    "main.2ca3b56c.css.map": "/Excuser/static/css/main.2ca3b56c.css.map",
+    "main.c694daff.js.map": "/Excuser/static/js/main.c694daff.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2ca3b56c.css",
+    "static/js/main.c694daff.js"
+  ]
+}
