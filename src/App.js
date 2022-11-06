@@ -43,7 +43,7 @@ function App() {
         <h4>Category : {excuse?.category}</h4>
         <br />
         <h3>Excuse: <br /><br />{excuse?.excuse}</h3>
-        <img src={excused}></img>
+        <img src={excused} alt='sorry'></img>
       </div>
     </div>
 

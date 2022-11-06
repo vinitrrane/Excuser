@@ -88,4 +88,9 @@ body {
   .App {
     width: 90vw;
   }
+
+  .excuse h3,
+  .excuse h4 {
+    font-size: 0.9rem;
+  }
 }
