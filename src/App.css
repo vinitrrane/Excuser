@@ -37,7 +37,7 @@ body {
 
 .btnGroup button {
   margin: 0.5rem;
-  width: 7rem;
+  width: fit-content;
   outline: none;
   border: none;
   box-shadow: none;
@@ -65,17 +65,22 @@ body {
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-.excuse h4,
+.excuse h4 {
+  padding: 1rem;
+  margin: 0rem;
+}
+
 .excuse h3 {
   padding: 1rem;
+  margin: 1rem;
 }
 
 .excuse h4 {
   background-color: aquamarine;
 }
 
-.excuse h3 {
-  height: 20vh;
+.excuseText {
+  height: 30vh;
 }
 
 .excuse img {
@@ -85,12 +90,24 @@ body {
 }
 
 @media (max-width:580px) {
+
+
   .App {
     width: 90vw;
   }
 
+  button {
+    font-size: 0.7rem;
+    padding: 0.2rem;
+
+  }
+
+  .excuse {
+    height: 50vh !important
+  }
+
   .excuse h3,
   .excuse h4 {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 }

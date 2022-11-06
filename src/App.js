@@ -31,8 +31,6 @@ function App() {
           <button onClick={() => funClick('children')}>Children</button>
           <button onClick={() => funClick('college')}>College</button>
           <button onClick={() => funClick('funny')}>Funny</button>
-          <button onClick={() => funClick('unbelievable')}>Unbelievable</button>
-          <button onClick={() => funClick('developers')}>Developers</button>
         </div></div>
 
 
@@ -42,7 +40,10 @@ function App() {
       <div className='excuse'>
         <h4>Category : {excuse?.category}</h4>
         <br />
-        <h3>Excuse: <br /><br />{excuse?.excuse}</h3>
+        <div className='excuseText'>
+          <h3>Excuse: <br /><br />{excuse?.excuse}</h3>
+        </div>
+
         <img src={excused} alt='sorry'></img>
       </div>
     </div>
