@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Excuser/static/css/main.ad89b2d7.css",
-    "main.js": "/Excuser/static/js/main.d31e4468.js",
+    "main.js": "/Excuser/static/js/main.ae0af3f2.js",
     "static/media/excused.png": "/Excuser/static/media/excused.f46bd9e9a596406ff886.png",
     "index.html": "/Excuser/index.html",
     "main.ad89b2d7.css.map": "/Excuser/static/css/main.ad89b2d7.css.map",
-    "main.d31e4468.js.map": "/Excuser/static/js/main.d31e4468.js.map"
+    "main.ae0af3f2.js.map": "/Excuser/static/js/main.ae0af3f2.js.map"
   },
   "entrypoints": [
     "static/css/main.ad89b2d7.css",
-    "static/js/main.d31e4468.js"
+    "static/js/main.ae0af3f2.js"
   ]
 }
